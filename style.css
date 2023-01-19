@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.full-page {
+  text-align: center;
+}
+
+.pic img {
+  width: 33rem;
+  height: 20rem;
+}
+
+.logolo img {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+input {
+  height: 2.5rem;
+  width: 23rem;
+  border-radius: 3rem;
+  border: 1px solid blue;
+  text-indent: 1.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  margin-left: 1rem;
+  height: 2.7rem;
+  width: 10rem;
+  border-radius: 2rem;
+  border: 1px solid blue;
+}
+
+.booto {
+    margin: 2rem 0 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hmm img{
+
+    height: 1.8rem;
+    width: 1.8rem;
+    margin: 2rem 1rem 1rem 1rem;
+}
