@@ -48,9 +48,9 @@ input {
   font-size: 1rem;
 }
 
-::placeholder{
-    color: rgba(0, 0, 0, 0.374);
-    font-size: 14px;
+::placeholder {
+  color: rgba(0, 0, 0, 0.374);
+  font-size: 14px;
 }
 
 button {
@@ -95,5 +95,54 @@ button:hover {
 
 /*  Here We Add Media Query  */
 
+@media (max-width: 414px) {
+  .full-page {
+    margin-top: -5rem;
+  }
 
+  .pic img {
+    width: 18rem;
+    height: 10rem;
+  }
 
+  h1 {
+    font-size: 1.5rem;
+    font-family: "Libre Franklin", sans-serif;
+  }
+
+  .booto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    margin-bottom: 1.7rem;
+    height: 2.3rem;
+    width: 16rem;
+  }
+
+  button {
+    margin-left: 0;
+    height: 2.4rem;
+    width: 16rem;
+    box-shadow: 2px 10px 20px -12px rgb(80, 56, 237);
+  }
+  p {
+    margin-top: 0.5rem;
+    font-size: 15px;
+  }
+
+  .lower {
+    margin-top: 4rem;
+  }
+  .hmm img {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: 0.5rem 1rem 0.3rem 0.5rem;
+  }
+  .lower p {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.516);
+  }
+}
